@@ -43,4 +43,24 @@ describe 'fizzbuzz' do
   it 'returns "fizz" when passed a number divisible by 3' do
     expect(fizzbuzz(69)).to eq 'fizz'
   end
+  
+  it 'returns "FizzBuzz" when passed a number divisible by 3 and 5' do
+    expect(fizzbuzz(30)).to eq "FizzBuzz"
+  end
+  
+   it 'returns "FizzBuzz" when passed a number divisible by 3 and 5' do
+    expect(fizzbuzz(45)).to eq "FizzBuzz"
+  end
+  
+   it 'returns "FizzBuzz" when passed a number divisible by 3 and 5' do
+    expect(fizzbuzz(60)).to eq "FizzBuzz"
+  end
+  
+   it 'returns "FizzBuzz" when passed a number divisible by 3 and 5' do
+    expect(fizzbuzz(75)).to eq "FizzBuzz"
+  end
+  
+   it 'returns "FizzBuzz" when passed a number divisible by 3 and 5' do
+    expect(fizzbuzz(90)).to eq "FizzBuzz"
+  end
 end  
